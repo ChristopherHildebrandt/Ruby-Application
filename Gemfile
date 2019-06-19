@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.3'
 gem 'pg', '>= 0.18', '< 2.0'
 # Authentication uses Devise
 gem 'devise'
+# Use Bootstap_form
+gem 'bootstrap_form'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use bootstrap-sass 

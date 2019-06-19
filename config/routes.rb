@@ -5,3 +5,7 @@ Rails.application.routes.draw do
   # define 'pages#index' route, so when we open our root page, Rails knows which controller and its action to call.
   root to: 'pages#index'
 end
+
+devise_scope:user do
+  get 'login',to:'devise/sessions#new'
+end

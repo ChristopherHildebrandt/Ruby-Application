@@ -12,7 +12,7 @@ gem 'devise'
 # Use Bootstap_form
 gem 'bootstrap_form'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 4.3'
 # Use bootstrap-sass 
 gem 'bootstrap-sass', '~> 3.3.7'
 # Use SCSS for stylesheets
